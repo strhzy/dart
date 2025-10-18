@@ -46,7 +46,7 @@ void main() {
     }
 
     if (!askForReplay()) {
-      print('До новых встреч!');
+      print('До свидания!');
       break;
     }
   }
@@ -76,15 +76,12 @@ List<List<String>> createEmptyBoard(int size) {
 void displayBoard(List<List<String>> board) {
   final size = board.length;
   print('');
-  
-  // Номера столбцов
   stdout.write('   ');
   for (var col = 0; col < size; col++) {
     stdout.write(' ${col + 1} ');
   }
   print('');
-  
-  // Игровое поле
+
   for (var row = 0; row < size; row++) {
     stdout.write('${row + 1}'.padLeft(2) + ' ');
     for (var col = 0; col < size; col++) {
@@ -191,51 +188,44 @@ const List<List<int>> winningDirections = [
 
 Result determineGameResult(List<List<String>> board) {
   final size = board.length;
-  
-  // Проверка строк и столбцов
-  for (var i = 0; i < size; i++) {
-    // Проверка строки
-    final rowFirst = board[i][0];
-    if (rowFirst != ' ' && _checkLine(board, i, 0, 0, 1, size)) {
-      return rowFirst == '0' ? Result.zeroWin : Result.crossWin;
+  const int winLength = 3;
+
+  for (var row = 0; row < size; row++) {
+    for (var col = 0; col < size; col++) {
+      final cell = board[row][col];
+      if (cell == ' ') continue;
+
+      for (final dir in winningDirections) {
+        final dRow = dir[0];
+        final dCol = dir[1];
+        if (_checkWinFromPosition(board, row, col, dRow, dCol, winLength)) {
+          return cell == '0' ? Result.zeroWin : Result.crossWin;
+        }
+      }
     }
-    
-    // Проверка столбца
-    final colFirst = board[0][i];
-    if (colFirst != ' ' && _checkLine(board, 0, i, 1, 0, size)) {
-      return colFirst == '0' ? Result.zeroWin : Result.crossWin;
-    }
   }
-  
-  // Проверка диагоналей
-  if (board[0][0] != ' ' && _checkLine(board, 0, 0, 1, 1, size)) {
-    return board[0][0] == '0' ? Result.zeroWin : Result.crossWin;
-  }
-  
-  if (board[0][size - 1] != ' ' && _checkLine(board, 0, size - 1, 1, -1, size)) {
-    return board[0][size - 1] == '0' ? Result.zeroWin : Result.crossWin;
-  }
-  
-  // Проверка на ничью
+
   if (isBoardFull(board)) {
     return Result.draw;
   }
-  
+
   return Result.inProgress;
 }
 
-bool _checkLine(List<List<String>> board, int startRow, int startCol, int rowStep, int colStep, int size) {
+bool _checkWinFromPosition(List<List<String>> board, int startRow, int startCol,
+    int rowStep, int colStep, int winLength) {
   final symbol = board[startRow][startCol];
+  final size = board.length;
   
-  for (var step = 1; step < size; step++) {
+  for (var step = 0; step < winLength; step++) {
     final row = startRow + rowStep * step;
     final col = startCol + colStep * step;
-    
-    if (row >= size || col >= size || col < 0 || board[row][col] != symbol) {
+
+    if (row < 0 || row >= size || col < 0 || col >= size || board[row][col] != symbol) {
       return false;
     }
   }
-  
+
   return true;
 }
 
@@ -253,13 +243,13 @@ bool isBoardFull(List<List<String>> board) {
 void showGameResult(Result result) {
   switch (result) {
     case Result.crossWin:
-      print('🎉 Победили крестики (X)!');
+      print('Победили крестики (X)!');
       break;
     case Result.zeroWin:
-      print('🎉 Победили нолики (0)!');
+      print('Победили нолики (0)!');
       break;
     case Result.draw:
-      print('🤝 Ничья!');
+      print('Ничья!');
       break;
     case Result.inProgress:
       break;
