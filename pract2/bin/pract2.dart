@@ -60,14 +60,14 @@ bool _round(Battle game, {required bool bot}) {
   final enemy = game.snapshot.rival;
   _cls();
   print('Ход: ${active.alias}\n');
-  if (!(bot && active is AutoCommander)) {
+  if (bot && active is AutoCommander) {
+    print('Бот делает ход...\n');
+  } else {
     print('Ваше поле:');
     active.sea.display(reveal: true).forEach(print);
     print('\nПоле противника:');
     enemy.sea.display(reveal: false).forEach(print);
     print('');
-  } else {
-    print('Бот делает ход...\n');
   }
 
   late Point target;
@@ -165,11 +165,7 @@ void _handover(String name) {
 }
 
 void _cls() {
-  if (Platform.isWindows) {
-    stdout.write('\n' * 50);
-  } else {
-    stdout.write('\x1B[2J\x1B[H');
-  }
+  stdout.write('\x1B[2J\x1B[3J\x1B[H');
 }
 
 int _pick(int min, int max) {

@@ -173,23 +173,25 @@ class AutoCommander extends Commander {
       : _rnd = random ?? Random();
 
   void setupFleet(List<int> sizes) {
-    for (int s in sizes..sort((a, b) => b - a)) {
-      bool ok = false;
-      int attempts = 0;
-      while (!ok && attempts < 10000) {
-        attempts++;
-        final dir = _rnd.nextBool() ? Direction.horizontal : Direction.vertical;
-        final maxY = dir == Direction.vertical ? sea.dimension - s : sea.dimension - 1;
-        final maxX = dir == Direction.horizontal ? sea.dimension - s : sea.dimension - 1;
-        final start = Point(_rnd.nextInt(maxY + 1), _rnd.nextInt(maxX + 1));
-        if (sea.canDeploy(s, start, dir)) {
-          sea.deploy('Bot-$s', s, start, dir);
-          ok = true;
-        }
+  final sortedSizes = List<int>.from(sizes)..sort((a, b) => b - a);
+  
+  for (int s in sortedSizes) {
+    bool ok = false;
+    int attempts = 0;
+    while (!ok && attempts < 10000) {
+      attempts++;
+      final dir = _rnd.nextBool() ? Direction.horizontal : Direction.vertical;
+      final maxY = dir == Direction.vertical ? sea.dimension - s : sea.dimension - 1;
+      final maxX = dir == Direction.horizontal ? sea.dimension - s : sea.dimension - 1;
+      final start = Point(_rnd.nextInt(maxY + 1), _rnd.nextInt(maxX + 1));
+      if (sea.canDeploy(s, start, dir)) {
+        sea.deploy('Bot-$s', s, start, dir);
+        ok = true;
       }
-      if (!ok) throw StateError('Ошибка авторазмещения');
     }
+    if (!ok) throw StateError('Ошибка авторазмещения');
   }
+}
 
   Point pickTarget(Field enemy) {
     while (true) {
