@@ -1,0 +1,1876 @@
+[  +42 ms] executing: uname -m
+[   +3 ms] Exit code 0 from: uname -m
+[        ] x86_64
+[   +6 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [/home/strhzy/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[   +4 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-01-28 13:43:12 -0800
+[  +21 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +42 ms] executing: /home/strhzy/Android/Sdk/platform-tools/adb devices -l
+[  +12 ms] List of devices attached
+           AEFQFE89EQCUDABE       device usb:3-1.3 product:PHP110 model:PHP110 device:OP5927 transport_id:1
+[   +4 ms] /home/strhzy/Android/Sdk/platform-tools/adb -s AEFQFE89EQCUDABE shell getprop
+[ +104 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +72 ms] Skipping pub get: version match.
+[  +90 ms] Found plugin video_player at /home/strhzy/.pub-cache/hosted/pub.dev/video_player-2.10.1/
+[   +3 ms] Found plugin video_player_web at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_web-2.4.0/
+[   +3 ms] Found plugin video_player_avfoundation at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.9.0/
+[   +2 ms] Found plugin video_player_android at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_android-2.9.1/
+[   +2 ms] Found plugin url_launcher at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher-6.3.2/
+[   +1 ms] Found plugin url_launcher_windows at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.5/
+[   +5 ms] Found plugin url_launcher_web at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_web-2.4.2/
+[   +2 ms] Found plugin url_launcher_macos at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.5/
+[   +1 ms] Found plugin url_launcher_linux at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_linux-3.2.2/
+[   +1 ms] Found plugin url_launcher_ios at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.6/
+[   +1 ms] Found plugin url_launcher_android at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.28/
+[   +2 ms] Found plugin permission_handler at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler-11.4.0/
+[        ] Found plugin permission_handler_windows at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +1 ms] Found plugin permission_handler_html at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[        ] Found plugin permission_handler_apple at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[   +1 ms] Found plugin permission_handler_android at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/
+[        ] Found plugin path_provider at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +3 ms] Found plugin path_provider_linux at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[   +1 ms] Found plugin path_provider_foundation at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_foundation-2.5.1/
+[   +1 ms] Found plugin path_provider_android at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[        ] Found plugin location at /home/strhzy/.pub-cache/hosted/pub.dev/location-5.0.3/
+[        ] Found plugin location_web at /home/strhzy/.pub-cache/hosted/pub.dev/location_web-4.2.0/
+[   +1 ms] Found plugin just_audio at /home/strhzy/.pub-cache/hosted/pub.dev/just_audio-0.9.46/
+[   +2 ms] Found plugin just_audio_web at /home/strhzy/.pub-cache/hosted/pub.dev/just_audio_web-0.4.16/
+[   +2 ms] Found plugin audio_session at /home/strhzy/.pub-cache/hosted/pub.dev/audio_session-0.1.25/
+[   +1 ms] Found plugin image_picker at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker-1.2.1/
+[        ] Found plugin image_picker_windows at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.2/
+[   +2 ms] Found plugin file_selector_windows at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+5/
+[   +3 ms] Found plugin image_picker_macos at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.2+1/
+[   +1 ms] Found plugin file_selector_macos at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.5/
+[   +1 ms] Found plugin image_picker_linux at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.2/
+[   +1 ms] Found plugin file_selector_linux at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.4/
+[        ] Found plugin image_picker_ios at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.13+6/
+[        ] Found plugin image_picker_for_web at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_for_web-3.1.1/
+[        ] Found plugin image_picker_android at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_android-0.8.13+13/
+[        ] Found plugin flutter_plugin_android_lifecycle at /home/strhzy/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33/
+[   +1 ms] Found plugin file_picker at /home/strhzy/.pub-cache/hosted/pub.dev/file_picker-5.5.0/
+[   +4 ms] Found plugin device_info_plus at /home/strhzy/.pub-cache/hosted/pub.dev/device_info_plus-9.1.2/
+[  +56 ms] Found plugin video_player at /home/strhzy/.pub-cache/hosted/pub.dev/video_player-2.10.1/
+[        ] Found plugin video_player_web at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_web-2.4.0/
+[   +1 ms] Found plugin video_player_avfoundation at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.9.0/
+[        ] Found plugin video_player_android at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_android-2.9.1/
+[   +1 ms] Found plugin url_launcher at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher-6.3.2/
+[        ] Found plugin url_launcher_windows at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.5/
+[   +1 ms] Found plugin url_launcher_web at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_web-2.4.2/
+[        ] Found plugin url_launcher_macos at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.5/
+[        ] Found plugin url_launcher_linux at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_linux-3.2.2/
+[   +2 ms] Found plugin url_launcher_ios at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.6/
+[   +1 ms] Found plugin url_launcher_android at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.28/
+[   +1 ms] Found plugin permission_handler at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler-11.4.0/
+[        ] Found plugin permission_handler_windows at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +1 ms] Found plugin permission_handler_html at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[        ] Found plugin permission_handler_apple at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/
+[        ] Found plugin path_provider at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +1 ms] Found plugin path_provider_linux at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[   +1 ms] Found plugin path_provider_foundation at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_foundation-2.5.1/
+[        ] Found plugin path_provider_android at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[        ] Found plugin location at /home/strhzy/.pub-cache/hosted/pub.dev/location-5.0.3/
+[        ] Found plugin location_web at /home/strhzy/.pub-cache/hosted/pub.dev/location_web-4.2.0/
+[   +1 ms] Found plugin just_audio at /home/strhzy/.pub-cache/hosted/pub.dev/just_audio-0.9.46/
+[   +1 ms] Found plugin just_audio_web at /home/strhzy/.pub-cache/hosted/pub.dev/just_audio_web-0.4.16/
+[   +1 ms] Found plugin audio_session at /home/strhzy/.pub-cache/hosted/pub.dev/audio_session-0.1.25/
+[        ] Found plugin image_picker at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker-1.2.1/
+[        ] Found plugin image_picker_windows at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.2/
+[   +1 ms] Found plugin file_selector_windows at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+5/
+[        ] Found plugin image_picker_macos at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.2+1/
+[        ] Found plugin file_selector_macos at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.5/
+[        ] Found plugin image_picker_linux at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.2/
+[        ] Found plugin file_selector_linux at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.4/
+[        ] Found plugin image_picker_ios at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.13+6/
+[        ] Found plugin image_picker_for_web at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_for_web-3.1.1/
+[        ] Found plugin image_picker_android at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_android-0.8.13+13/
+[        ] Found plugin flutter_plugin_android_lifecycle at /home/strhzy/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33/
+[   +1 ms] Found plugin file_picker at /home/strhzy/.pub-cache/hosted/pub.dev/file_picker-5.5.0/
+[   +1 ms] Found plugin device_info_plus at /home/strhzy/.pub-cache/hosted/pub.dev/device_info_plus-9.1.2/
+[   +9 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +36 ms] Found plugin video_player at /home/strhzy/.pub-cache/hosted/pub.dev/video_player-2.10.1/
+[        ] Found plugin video_player_web at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_web-2.4.0/
+[   +1 ms] Found plugin video_player_avfoundation at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.9.0/
+[        ] Found plugin video_player_android at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_android-2.9.1/
+[   +1 ms] Found plugin url_launcher at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher-6.3.2/
+[        ] Found plugin url_launcher_windows at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.5/
+[        ] Found plugin url_launcher_web at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_web-2.4.2/
+[        ] Found plugin url_launcher_macos at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.5/
+[        ] Found plugin url_launcher_linux at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_linux-3.2.2/
+[        ] Found plugin url_launcher_ios at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.6/
+[        ] Found plugin url_launcher_android at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.28/
+[   +1 ms] Found plugin permission_handler at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler-11.4.0/
+[        ] Found plugin permission_handler_windows at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[        ] Found plugin permission_handler_html at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[        ] Found plugin permission_handler_apple at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/
+[        ] Found plugin path_provider at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +1 ms] Found plugin path_provider_linux at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[        ] Found plugin path_provider_foundation at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_foundation-2.5.1/
+[        ] Found plugin path_provider_android at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[        ] Found plugin location at /home/strhzy/.pub-cache/hosted/pub.dev/location-5.0.3/
+[        ] Found plugin location_web at /home/strhzy/.pub-cache/hosted/pub.dev/location_web-4.2.0/
+[        ] Found plugin just_audio at /home/strhzy/.pub-cache/hosted/pub.dev/just_audio-0.9.46/
+[   +1 ms] Found plugin just_audio_web at /home/strhzy/.pub-cache/hosted/pub.dev/just_audio_web-0.4.16/
+[   +1 ms] Found plugin audio_session at /home/strhzy/.pub-cache/hosted/pub.dev/audio_session-0.1.25/
+[        ] Found plugin image_picker at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker-1.2.1/
+[        ] Found plugin image_picker_windows at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.2/
+[   +1 ms] Found plugin file_selector_windows at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+5/
+[        ] Found plugin image_picker_macos at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.2+1/
+[        ] Found plugin file_selector_macos at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.5/
+[        ] Found plugin image_picker_linux at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.2/
+[        ] Found plugin file_selector_linux at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.4/
+[        ] Found plugin image_picker_ios at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.13+6/
+[        ] Found plugin image_picker_for_web at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_for_web-3.1.1/
+[        ] Found plugin image_picker_android at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_android-0.8.13+13/
+[        ] Found plugin flutter_plugin_android_lifecycle at /home/strhzy/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33/
+[        ] Found plugin file_picker at /home/strhzy/.pub-cache/hosted/pub.dev/file_picker-5.5.0/
+[   +1 ms] Found plugin device_info_plus at /home/strhzy/.pub-cache/hosted/pub.dev/device_info_plus-9.1.2/
+[   +2 ms] Generating /home/strhzy/sharaga/flutter/practs/pract8/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +5 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[  +83 ms] ro.hardware = mt6983
+[        ] ro.build.characteristics = default
+[  +66 ms] Initializing file store
+[   +9 ms] Skipping target: gen_localizations
+[   +1 ms] gen_dart_plugin_registrant: Starting due to {InvalidatedReasonKind.inputChanged: The following inputs have updated contents: /home/strhzy/sharaga/flutter/practs/pract8/.dart_tool/package_config.json,/home/strhzy/sharaga/flutter/practs/pract8/.dart_tool/flutter_build/dart_plugin_registrant.dart}
+[  +50 ms] Found plugin video_player at /home/strhzy/.pub-cache/hosted/pub.dev/video_player-2.10.1/
+[        ] Found plugin video_player_web at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_web-2.4.0/
+[   +1 ms] Found plugin video_player_avfoundation at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.9.0/
+[        ] Found plugin video_player_android at /home/strhzy/.pub-cache/hosted/pub.dev/video_player_android-2.9.1/
+[   +1 ms] Found plugin url_launcher at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher-6.3.2/
+[        ] Found plugin url_launcher_windows at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.5/
+[        ] Found plugin url_launcher_web at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_web-2.4.2/
+[        ] Found plugin url_launcher_macos at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.5/
+[        ] Found plugin url_launcher_linux at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_linux-3.2.2/
+[        ] Found plugin url_launcher_ios at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.6/
+[        ] Found plugin url_launcher_android at /home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.28/
+[   +1 ms] Found plugin permission_handler at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler-11.4.0/
+[        ] Found plugin permission_handler_windows at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +1 ms] Found plugin permission_handler_html at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[        ] Found plugin permission_handler_apple at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/
+[        ] Found plugin path_provider at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +1 ms] Found plugin path_provider_linux at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[        ] Found plugin path_provider_foundation at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_foundation-2.5.1/
+[        ] Found plugin path_provider_android at /home/strhzy/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[        ] Found plugin location at /home/strhzy/.pub-cache/hosted/pub.dev/location-5.0.3/
+[        ] Found plugin location_web at /home/strhzy/.pub-cache/hosted/pub.dev/location_web-4.2.0/
+[        ] Found plugin just_audio at /home/strhzy/.pub-cache/hosted/pub.dev/just_audio-0.9.46/
+[   +1 ms] Found plugin just_audio_web at /home/strhzy/.pub-cache/hosted/pub.dev/just_audio_web-0.4.16/
+[   +1 ms] Found plugin audio_session at /home/strhzy/.pub-cache/hosted/pub.dev/audio_session-0.1.25/
+[        ] Found plugin image_picker at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker-1.2.1/
+[        ] Found plugin image_picker_windows at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.2/
+[   +1 ms] Found plugin file_selector_windows at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+5/
+[        ] Found plugin image_picker_macos at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.2+1/
+[        ] Found plugin file_selector_macos at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.5/
+[        ] Found plugin image_picker_linux at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.2/
+[        ] Found plugin file_selector_linux at /home/strhzy/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.4/
+[        ] Found plugin image_picker_ios at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.13+6/
+[        ] Found plugin image_picker_for_web at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_for_web-3.1.1/
+[        ] Found plugin image_picker_android at /home/strhzy/.pub-cache/hosted/pub.dev/image_picker_android-0.8.13+13/
+[        ] Found plugin flutter_plugin_android_lifecycle at /home/strhzy/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33/
+[        ] Found plugin file_picker at /home/strhzy/.pub-cache/hosted/pub.dev/file_picker-5.5.0/
+[   +1 ms] Found plugin device_info_plus at /home/strhzy/.pub-cache/hosted/pub.dev/device_info_plus-9.1.2/
+[   +4 ms] Skipping generating dart_plugin_registrant.dart because it is up-to-date.
+[        ] gen_dart_plugin_registrant: Complete
+[   +1 ms] Skipping target: _composite
+[   +1 ms] complete
+[   +3 ms] Launching lib/main.dart on PHP110 in debug mode...
+[   +3 ms] /home/strhzy/flutter/bin/cache/dart-sdk/bin/dartaotruntime /home/strhzy/flutter/bin/cache/dart-sdk/bin/snapshots/frontend_server_aot.dart.snapshot --sdk-root /home/strhzy/flutter/bin/cache/artifacts/engine/common/flutter_patched_sdk/ --incremental --target=flutter --experimental-emit-debug-metadata -DFLUTTER_VERSION=3.38.9 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=67323de285 -DFLUTTER_ENGINE_REVISION=587c18f873 -DFLUTTER_DART_VERSION=3.10.8 --output-dill /tmp/flutter_tools.RIRGHT/flutter_tool.VFWTBV/app.dill --packages /home/strhzy/sharaga/flutter/practs/pract8/.dart_tool/package_config.json -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --filesystem-scheme org-dartlang-root --initialize-from-dill build/f537d389bd7fe17e116f8b847863fcdd.cache.dill.track.dill --source file:///home/strhzy/sharaga/flutter/practs/pract8/.dart_tool/flutter_build/dart_plugin_registrant.dart --source package:flutter/src/dart_plugin_registrant.dart -Dflutter.dart_plugin_registrant=file:///home/strhzy/sharaga/flutter/practs/pract8/.dart_tool/flutter_build/dart_plugin_registrant.dart --verbosity=error --enable-experiment=alternative-invalidation-strategy
+[  +11 ms] executing: /home/strhzy/Android/Sdk/platform-tools/adb -s AEFQFE89EQCUDABE shell -x logcat -v time -t 1
+[   +9 ms] <- compile package:pract8/main.dart
+[  +92 ms] --------- beginning of main
+           02-06 20:54:59.713 I/OplusHansManager ( 2008): uid=10558, pkg=com.v2ray.ang cannot transition from R to M, importance=vpn
+[   +9 ms] executing: /home/strhzy/Android/Sdk/platform-tools/adb version
+[   +6 ms] Android Debug Bridge version 1.0.41
+           Version 36.0.2-14143358
+           Installed as /home/strhzy/Android/Sdk/platform-tools/adb
+           Running on Linux 6.18.8-3-cachyos (x86_64)
+[   +1 ms] executing: /home/strhzy/Android/Sdk/platform-tools/adb start-server
+[   +5 ms] Building APK
+[   +8 ms] executing: /home/strhzy/.local/share/JetBrains/Toolbox/apps/android-studio/jbr/bin/java -version
+[  +70 ms] Exit code 0 from: /home/strhzy/.local/share/JetBrains/Toolbox/apps/android-studio/jbr/bin/java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +8 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +1 ms] executing: /home/strhzy/.local/share/JetBrains/Toolbox/apps/android-studio/jbr/bin/java --version
+[  +71 ms] Exit code 0 from: /home/strhzy/.local/share/JetBrains/Toolbox/apps/android-studio/jbr/bin/java --version
+[        ] openjdk 21.0.8 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +2 ms] Version of Java is different than impacted version, no migration attempted.
+[  +14 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +2 ms] Using gradle from /home/strhzy/sharaga/flutter/practs/pract8/android/gradlew.
+[  +18 ms] LocalFile: '/home/strhzy/sharaga/flutter/practs/pract8/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +2 ms] LocalFile: '/home/strhzy/sharaga/flutter/practs/pract8/android/settings.gradle.kts' provides AGP version: 8.11.1
+[  +21 ms] Running Gradle task 'assembleDebug'...
+[   +1 ms] executing: [/home/strhzy/sharaga/flutter/practs/pract8/android/] /home/strhzy/sharaga/flutter/practs/pract8/android/gradlew --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm64 -Ptarget=/home/strhzy/sharaga/flutter/practs/pract8/lib/main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false -Pfilesystem-scheme=org-dartlang-root assembleDebug
+[ +509 ms] Initialized native services in: /home/strhzy/.gradle/native
+[        ] Initialized jansi services in: /home/strhzy/.gradle/native
+[ +326 ms] Found daemon DaemonInfo{pid=21777, address=[dfbea9d5-ad29-4659-9f3e-d1db1f37a45c port:44445, addresses:[/127.0.0.1]], state=Idle, lastBusy=1770399383727, context=DefaultDaemonContext[uid=ce208cf8-c557-408b-b876-db75522bac79,javaHome=/usr/lib/jvm/java-17-openjdk,javaVersion=17,javaVendor=Arch Linux,daemonRegistryDir=/home/strhzy/.gradle/daemon,pid=21777,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]} however its context does not match the desired criteria.
+[        ] At least one daemon option is different.
+[   +1 ms] Wanted: DaemonRequestContext{jvmCriteria=/usr/lib/jvm/java-17-openjdk (from org.gradle.java.home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=UTF-8, -Duser.country=RU, -Duser.language=ru, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=ce208cf8-c557-408b-b876-db75522bac79,javaHome=/usr/lib/jvm/java-17-openjdk,javaVersion=17,javaVendor=Arch Linux,daemonRegistryDir=/home/strhzy/.gradle/daemon,pid=21777,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+[        ]   Looking for a different daemon...
+[        ] The client will now receive all logging from the daemon (pid: 30898). The daemon log file: /home/strhzy/.gradle/daemon/9.3.1/daemon-30898.out.log
+[        ] Starting 12th build in daemon [uptime: 15 mins 49.013 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 6% of 4 GiB]
+[        ] Using 16 worker leases.
+[        ] Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+[        ] Now considering [/home/strhzy/sharaga/flutter/practs/pract8/android, /home/strhzy/flutter/packages/flutter_tools/gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+[        ] Now considering [/home/strhzy/flutter/packages/flutter_tools/gradle, /home/strhzy/sharaga/flutter/practs/pract8/android] as hierarchies to watch
+[  +95 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file '/home/strhzy/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.4.2']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Build 4bb112f6-4d0a-4bac-8500-32f28eabec08 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory '/home/strhzy/flutter/packages/flutter_tools/gradle/src/main/java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[Execution worker,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[Execution worker,5,main]) started.
+[  +95 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[Execution worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[Execution worker,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[Execution worker,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[Execution worker,5,main]) started.
+[        ] :gradle:processResources (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[Execution worker,5,main]) started.
+[        ] :gradle:classes (Thread[Execution worker Thread 2,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[Execution worker Thread 2,5,main]) started.
+[        ] :gradle:jar (Thread[Execution worker Thread 2,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[  +95 ms] Settings evaluated using settings file '/home/strhzy/sharaga/flutter/practs/pract8/android/settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file '/home/strhzy/sharaga/flutter/practs/pract8/android/build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':audio_session', project ':device_info_plus', project ':file_picker', project ':flutter_plugin_android_lifecycle', project ':image_picker_android', project ':just_audio', project ':location', project ':path_provider_android', project ':permission_handler_android', project ':url_launcher_android', project ':video_player_android']
+[+1999 ms] > Configure project :
+[        ] Evaluating root project 'android' using build file '/home/strhzy/sharaga/flutter/practs/pract8/android/build.gradle.kts'.
+[ +600 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file '/home/strhzy/sharaga/flutter/practs/pract8/android/app/build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Build aabe38bd-a871-4a8d-9b8e-4deb45152a1f is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/strhzy/Android/Sdk
+[ +289 ms] > Configure project :audio_session
+[        ] Evaluating project ':audio_session' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/audio_session-0.1.25/android/build.gradle'.
+[        ] Using default execution profile
+[ +199 ms] > Configure project :device_info_plus
+[        ] Evaluating project ':device_info_plus' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/device_info_plus-9.1.2/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[  +98 ms] > Configure project :file_picker
+[        ] Evaluating project ':file_picker' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/file_picker-5.5.0/android/build.gradle'.
+[        ] Using default execution profile
+[ +199 ms] > Configure project :flutter_plugin_android_lifecycle
+[        ] Evaluating project ':flutter_plugin_android_lifecycle' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33/android/build.gradle'.
+[        ] Using default execution profile
+[  +99 ms] > Configure project :image_picker_android
+[        ] Evaluating project ':image_picker_android' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/image_picker_android-0.8.13+13/android/build.gradle'.
+[        ] Using default execution profile
+[  +99 ms] > Configure project :just_audio
+[        ] Evaluating project ':just_audio' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/just_audio-0.9.46/android/build.gradle'.
+[        ] Using default execution profile
+[ +199 ms] > Configure project :location
+[        ] Evaluating project ':location' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/location-5.0.3/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] > Configure project :path_provider_android
+[        ] Evaluating project ':path_provider_android' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/android/build.gradle'.
+[        ] Using default execution profile
+[ +198 ms] > Configure project :permission_handler_android
+[        ] Evaluating project ':permission_handler_android' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/android/build.gradle'.
+[        ] Using default execution profile
+[  +99 ms] > Configure project :url_launcher_android
+[        ] Evaluating project ':url_launcher_android' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.28/android/build.gradle'.
+[        ] Using default execution profile
+[  +99 ms] > Configure project :video_player_android
+[        ] Evaluating project ':video_player_android' using build file '/home/strhzy/.pub-cache/hosted/pub.dev/video_player_android-2.9.1/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] All projects evaluated.
+[  +99 ms] Task name matched 'assembleDebug'
+[        ] Selected primary task 'assembleDebug' from project :
+[ +299 ms] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+[ +604 ms] Tasks to be executed: [task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:compileFlutterBuildDebug', task ':app:packJniLibsflutterBuildDebug', task ':audio_session:preBuild', task ':audio_session:preDebugBuild', task ':audio_session:writeDebugAarMetadata', task ':device_info_plus:preBuild', task ':device_info_plus:preDebugBuild', task ':device_info_plus:writeDebugAarMetadata', task ':file_picker:preBuild', task ':file_picker:preDebugBuild', task ':file_picker:writeDebugAarMetadata', task ':flutter_plugin_android_lifecycle:preBuild', task ':flutter_plugin_android_lifecycle:preDebugBuild', task ':flutter_plugin_android_lifecycle:writeDebugAarMetadata', task ':image_picker_android:preBuild', task ':image_picker_android:preDebugBuild', task ':image_picker_android:writeDebugAarMetadata', task ':just_audio:preBuild', task ':just_audio:preDebugBuild', task ':just_audio:writeDebugAarMetadata', task ':location:preBuild', task ':location:preDebugBuild', task ':location:writeDebugAarMetadata', task ':path_provider_android:preBuild', task ':path_provider_android:preDebugBuild', task ':path_provider_android:writeDebugAarMetadata', task ':permission_handler_android:preBuild', task ':permission_handler_android:preDebugBuild', task ':permission_handler_android:writeDebugAarMetadata', task ':url_launcher_android:preBuild', task ':url_launcher_android:preDebugBuild', task ':url_launcher_android:writeDebugAarMetadata', task ':video_player_android:preBuild', task ':video_player_android:preDebugBuild', task ':video_player_android:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':audio_session:mergeDebugShaders', task ':audio_session:compileDebugShaders', task ':audio_session:generateDebugAssets', task ':audio_session:mergeDebugAssets', task ':device_info_plus:mergeDebugShaders', task ':device_info_plus:compileDebugShaders', task ':device_info_plus:generateDebugAssets', task ':device_info_plus:mergeDebugAssets', task ':file_picker:mergeDebugShaders', task ':file_picker:compileDebugShaders', task ':file_picker:generateDebugAssets', task ':file_picker:mergeDebugAssets', task ':flutter_plugin_android_lifecycle:mergeDebugShaders', task ':flutter_plugin_android_lifecycle:compileDebugShaders', task ':flutter_plugin_android_lifecycle:generateDebugAssets', task ':flutter_plugin_android_lifecycle:mergeDebugAssets', task ':image_picker_android:mergeDebugShaders', task ':image_picker_android:compileDebugShaders', task ':image_picker_android:generateDebugAssets', task ':image_picker_android:mergeDebugAssets', task ':just_audio:mergeDebugShaders', task ':just_audio:compileDebugShaders', task ':just_audio:generateDebugAssets', task ':just_audio:mergeDebugAssets', task ':location:mergeDebugShaders', task ':location:compileDebugShaders', task ':location:generateDebugAssets', task ':location:mergeDebugAssets', task ':path_provider_android:mergeDebugShaders', task ':path_provider_android:compileDebugShaders', task ':path_provider_android:generateDebugAssets', task ':path_provider_android:mergeDebugAssets', task ':permission_handler_android:mergeDebugShaders', task ':permission_handler_android:compileDebugShaders', task ':permission_handler_android:generateDebugAssets', task ':permission_handler_android:mergeDebugAssets', task ':url_launcher_android:mergeDebugShaders', task ':url_launcher_android:compileDebugShaders', task ':url_launcher_android:generateDebugAssets', task ':url_launcher_android:mergeDebugAssets', task ':video_player_android:mergeDebugShaders', task ':video_player_android:compileDebugShaders', task ':video_player_android:generateDebugAssets', task ':video_player_android:mergeDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':audio_session:generateDebugResValues', task ':audio_session:generateDebugResources', task ':audio_session:packageDebugResources', task ':device_info_plus:generateDebugResValues', task ':device_info_plus:generateDebugResources', task ':device_info_plus:packageDebugResources', task ':file_picker:generateDebugResValues', task ':file_picker:generateDebugResources', task ':file_picker:packageDebugResources', task ':flutter_plugin_android_lifecycle:generateDebugResValues', task ':flutter_plugin_android_lifecycle:generateDebugResources', task ':flutter_plugin_android_lifecycle:packageDebugResources', task ':image_picker_android:generateDebugResValues', task ':image_picker_android:generateDebugResources', task ':image_picker_android:packageDebugResources', task ':just_audio:generateDebugResValues', task ':just_audio:generateDebugResources', task ':just_audio:packageDebugResources', task ':location:generateDebugResValues', task ':location:generateDebugResources', task ':location:packageDebugResources', task ':path_provider_android:generateDebugResValues', task ':path_provider_android:generateDebugResources', task ':path_provider_android:packageDebugResources', task ':permission_handler_android:generateDebugResValues', task ':permission_handler_android:generateDebugResources', task ':permission_handler_android:packageDebugResources', task ':url_launcher_android:generateDebugResValues', task ':url_launcher_android:generateDebugResources', task ':url_launcher_android:packageDebugResources', task ':video_player_android:generateDebugResValues', task ':video_player_android:generateDebugResources', task ':video_player_android:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':audio_session:extractDeepLinksDebug', task ':audio_session:processDebugManifest', task ':device_info_plus:extractDeepLinksDebug', task ':device_info_plus:processDebugManifest', task ':file_picker:extractDeepLinksDebug', task ':file_picker:processDebugManifest', task ':flutter_plugin_android_lifecycle:extractDeepLinksDebug', task ':flutter_plugin_android_lifecycle:processDebugManifest', task ':image_picker_android:extractDeepLinksDebug', task ':image_picker_android:processDebugManifest', task ':just_audio:extractDeepLinksDebug', task ':just_audio:processDebugManifest', task ':location:extractDeepLinksDebug', task ':location:processDebugManifest', task ':path_provider_android:extractDeepLinksDebug', task ':path_provider_android:processDebugManifest', task ':permission_handler_android:extractDeepLinksDebug', task ':permission_handler_android:processDebugManifest', task ':url_launcher_android:extractDeepLinksDebug', task ':url_launcher_android:processDebugManifest', task ':video_player_android:extractDeepLinksDebug', task ':video_player_android:processDebugManifest', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':audio_session:compileDebugLibraryResources', task ':audio_session:parseDebugLocalResources', task ':audio_session:generateDebugRFile', task ':device_info_plus:compileDebugLibraryResources', task ':device_info_plus:parseDebugLocalResources', task ':device_info_plus:generateDebugRFile', task ':file_picker:compileDebugLibraryResources', task ':file_picker:parseDebugLocalResources', task ':file_picker:generateDebugRFile', task ':flutter_plugin_android_lifecycle:compileDebugLibraryResources', task ':flutter_plugin_android_lifecycle:parseDebugLocalResources', task ':flutter_plugin_android_lifecycle:generateDebugRFile', task ':image_picker_android:compileDebugLibraryResources', task ':image_picker_android:parseDebugLocalResources', task ':image_picker_android:generateDebugRFile', task ':just_audio:compileDebugLibraryResources', task ':just_audio:parseDebugLocalResources', task ':just_audio:generateDebugRFile', task ':location:compileDebugLibraryResources', task ':location:parseDebugLocalResources', task ':location:generateDebugRFile', task ':path_provider_android:compileDebugLibraryResources', task ':path_provider_android:parseDebugLocalResources', task ':path_provider_android:generateDebugRFile', task ':permission_handler_android:compileDebugLibraryResources', task ':permission_handler_android:parseDebugLocalResources', task ':permission_handler_android:generateDebugRFile', task ':url_launcher_android:compileDebugLibraryResources', task ':url_launcher_android:parseDebugLocalResources', task ':url_launcher_android:generateDebugRFile', task ':video_player_android:compileDebugLibraryResources', task ':video_player_android:parseDebugLocalResources', task ':video_player_android:generateDebugRFile', task ':app:processDebugResources', task ':audio_session:javaPreCompileDebug', task ':audio_session:compileDebugJavaWithJavac', task ':audio_session:bundleLibCompileToJarDebug', task ':device_info_plus:checkKotlinGradlePluginConfigurationErrors', task ':device_info_plus:compileDebugKotlin', task ':device_info_plus:javaPreCompileDebug', task ':device_info_plus:compileDebugJavaWithJavac', task ':device_info_plus:bundleLibCompileToJarDebug', task ':file_picker:javaPreCompileDebug', task ':flutter_plugin_android_lifecycle:javaPreCompileDebug', task ':flutter_plugin_android_lifecycle:compileDebugJavaWithJavac', task ':flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug', task ':file_picker:compileDebugJavaWithJavac', task ':file_picker:bundleLibCompileToJarDebug', task ':image_picker_android:javaPreCompileDebug', task ':image_picker_android:compileDebugJavaWithJavac', task ':image_picker_android:bundleLibCompileToJarDebug', task ':just_audio:javaPreCompileDebug', task ':just_audio:compileDebugJavaWithJavac', task ':just_audio:bundleLibCompileToJarDebug', task ':location:checkKotlinGradlePluginConfigurationErrors', task ':location:compileDebugKotlin', task ':location:javaPreCompileDebug', task ':location:compileDebugJavaWithJavac', task ':location:bundleLibCompileToJarDebug', task ':path_provider_android:javaPreCompileDebug', task ':path_provider_android:compileDebugJavaWithJavac', task ':path_provider_android:bundleLibCompileToJarDebug', task ':permission_handler_android:javaPreCompileDebug', task ':permission_handler_android:compileDebugJavaWithJavac', task ':permission_handler_android:bundleLibCompileToJarDebug', task ':url_launcher_android:generateDebugBuildConfig', task ':url_launcher_android:javaPreCompileDebug', task ':url_launcher_android:compileDebugJavaWithJavac', task ':url_launcher_android:bundleLibCompileToJarDebug', task ':video_player_android:checkKotlinGradlePluginConfigurationErrors', task ':video_player_android:compileDebugKotlin', task ':video_player_android:javaPreCompileDebug', task ':video_player_android:compileDebugJavaWithJavac', task ':video_player_android:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':just_audio:bundleLibRuntimeToJarDebug', task ':audio_session:bundleLibRuntimeToJarDebug', task ':device_info_plus:bundleLibRuntimeToJarDebug', task ':file_picker:bundleLibRuntimeToJarDebug', task ':image_picker_android:bundleLibRuntimeToJarDebug', task ':flutter_plugin_android_lifecycle:bundleLibRuntimeToJarDebug', task ':location:bundleLibRuntimeToJarDebug', task ':path_provider_android:bundleLibRuntimeToJarDebug', task ':permission_handler_android:bundleLibRuntimeToJarDebug', task ':url_launcher_android:bundleLibRuntimeToJarDebug', task ':video_player_android:bundleLibRuntimeToJarDebug', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':audio_session:processDebugJavaRes', task ':device_info_plus:processDebugJavaRes', task ':file_picker:processDebugJavaRes', task ':flutter_plugin_android_lifecycle:processDebugJavaRes', task ':image_picker_android:processDebugJavaRes', task ':just_audio:processDebugJavaRes', task ':location:processDebugJavaRes', task ':path_provider_android:processDebugJavaRes', task ':permission_handler_android:processDebugJavaRes', task ':url_launcher_android:processDebugJavaRes', task ':video_player_android:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':just_audio:bundleLibRuntimeToDirDebug', task ':audio_session:bundleLibRuntimeToDirDebug', task ':device_info_plus:bundleLibRuntimeToDirDebug', task ':file_picker:bundleLibRuntimeToDirDebug', task ':image_picker_android:bundleLibRuntimeToDirDebug', task ':flutter_plugin_android_lifecycle:bundleLibRuntimeToDirDebug', task ':location:bundleLibRuntimeToDirDebug', task ':path_provider_android:bundleLibRuntimeToDirDebug', task ':permission_handler_android:bundleLibRuntimeToDirDebug', task ':url_launcher_android:bundleLibRuntimeToDirDebug', task ':video_player_android:bundleLibRuntimeToDirDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:mergeDebugJniLibFolders', task ':audio_session:mergeDebugJniLibFolders', task ':audio_session:mergeDebugNativeLibs', task ':audio_session:copyDebugJniLibsProjectOnly', task ':device_info_plus:mergeDebugJniLibFolders', task ':device_info_plus:mergeDebugNativeLibs', task ':device_info_plus:copyDebugJniLibsProjectOnly', task ':file_picker:mergeDebugJniLibFolders', task ':file_picker:mergeDebugNativeLibs', task ':file_picker:copyDebugJniLibsProjectOnly', task ':flutter_plugin_android_lifecycle:mergeDebugJniLibFolders', task ':flutter_plugin_android_lifecycle:mergeDebugNativeLibs', task ':flutter_plugin_android_lifecycle:copyDebugJniLibsProjectOnly', task ':image_picker_android:mergeDebugJniLibFolders', task ':image_picker_android:mergeDebugNativeLibs', task ':image_picker_android:copyDebugJniLibsProjectOnly', task ':just_audio:mergeDebugJniLibFolders', task ':just_audio:mergeDebugNativeLibs', task ':just_audio:copyDebugJniLibsProjectOnly', task ':location:mergeDebugJniLibFolders', task ':location:mergeDebugNativeLibs', task ':location:copyDebugJniLibsProjectOnly', task ':path_provider_android:mergeDebugJniLibFolders', task ':path_provider_android:mergeDebugNativeLibs', task ':path_provider_android:copyDebugJniLibsProjectOnly', task ':permission_handler_android:mergeDebugJniLibFolders', task ':permission_handler_android:mergeDebugNativeLibs', task ':permission_handler_android:copyDebugJniLibsProjectOnly', task ':url_launcher_android:mergeDebugJniLibFolders', task ':url_launcher_android:mergeDebugNativeLibs', task ':url_launcher_android:copyDebugJniLibsProjectOnly', task ':video_player_android:mergeDebugJniLibFolders', task ':video_player_android:mergeDebugNativeLibs', task ':video_player_android:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':audio_session:stripDebugDebugSymbols', task ':audio_session:copyDebugJniLibsProjectAndLocalJars', task ':audio_session:extractDebugAnnotations', task ':audio_session:extractDeepLinksForAarDebug', task ':audio_session:mergeDebugGeneratedProguardFiles', task ':audio_session:mergeDebugConsumerProguardFiles', task ':audio_session:prepareDebugArtProfile', task ':audio_session:prepareLintJarForPublish', task ':audio_session:mergeDebugJavaResource', task ':audio_session:syncDebugLibJars', task ':audio_session:bundleDebugAar', task ':audio_session:assembleDebug', task ':device_info_plus:stripDebugDebugSymbols', task ':device_info_plus:copyDebugJniLibsProjectAndLocalJars', task ':device_info_plus:extractDebugAnnotations', task ':device_info_plus:extractDeepLinksForAarDebug', task ':device_info_plus:mergeDebugGeneratedProguardFiles', task ':device_info_plus:mergeDebugConsumerProguardFiles', task ':device_info_plus:prepareDebugArtProfile', task ':device_info_plus:prepareLintJarForPublish', task ':device_info_plus:mergeDebugJavaResource', task ':device_info_plus:syncDebugLibJars', task ':device_info_plus:bundleDebugAar', task ':device_info_plus:assembleDebug', task ':file_picker:stripDebugDebugSymbols', task ':file_picker:copyDebugJniLibsProjectAndLocalJars', task ':file_picker:extractDebugAnnotations', task ':file_picker:extractDeepLinksForAarDebug', task ':file_picker:mergeDebugGeneratedProguardFiles', task ':file_picker:mergeDebugConsumerProguardFiles', task ':file_picker:prepareDebugArtProfile', task ':file_picker:prepareLintJarForPublish', task ':file_picker:mergeDebugJavaResource', task ':file_picker:syncDebugLibJars', task ':file_picker:bundleDebugAar', task ':file_picker:assembleDebug', task ':flutter_plugin_android_lifecycle:stripDebugDebugSymbols', task ':flutter_plugin_android_lifecycle:copyDebugJniLibsProjectAndLocalJars', task ':flutter_plugin_android_lifecycle:extractDebugAnnotations', task ':flutter_plugin_android_lifecycle:extractDeepLinksForAarDebug', task ':flutter_plugin_android_lifecycle:mergeDebugGeneratedProguardFiles', task ':flutter_plugin_android_lifecycle:mergeDebugConsumerProguardFiles', task ':flutter_plugin_android_lifecycle:prepareDebugArtProfile', task ':flutter_plugin_android_lifecycle:prepareLintJarForPublish', task ':flutter_plugin_android_lifecycle:mergeDebugJavaResource', task ':flutter_plugin_android_lifecycle:syncDebugLibJars', task ':flutter_plugin_android_lifecycle:bundleDebugAar', task ':flutter_plugin_android_lifecycle:assembleDebug', task ':image_picker_android:stripDebugDebugSymbols', task ':image_picker_android:copyDebugJniLibsProjectAndLocalJars', task ':image_picker_android:extractDebugAnnotations', task ':image_picker_android:extractDeepLinksForAarDebug', task ':image_picker_android:mergeDebugGeneratedProguardFiles', task ':image_picker_android:mergeDebugConsumerProguardFiles', task ':image_picker_android:prepareDebugArtProfile', task ':image_picker_android:prepareLintJarForPublish', task ':image_picker_android:mergeDebugJavaResource', task ':image_picker_android:syncDebugLibJars', task ':image_picker_android:bundleDebugAar', task ':image_picker_android:assembleDebug', task ':just_audio:stripDebugDebugSymbols', task ':just_audio:copyDebugJniLibsProjectAndLocalJars', task ':just_audio:extractDebugAnnotations', task ':just_audio:extractDeepLinksForAarDebug', task ':just_audio:mergeDebugGeneratedProguardFiles', task ':just_audio:mergeDebugConsumerProguardFiles', task ':just_audio:prepareDebugArtProfile', task ':just_audio:prepareLintJarForPublish', task ':just_audio:mergeDebugJavaResource', task ':just_audio:syncDebugLibJars', task ':just_audio:bundleDebugAar', task ':just_audio:assembleDebug', task ':location:stripDebugDebugSymbols', task ':location:copyDebugJniLibsProjectAndLocalJars', task ':location:extractDebugAnnotations', task ':location:extractDeepLinksForAarDebug', task ':location:mergeDebugGeneratedProguardFiles', task ':location:mergeDebugConsumerProguardFiles', task ':location:prepareDebugArtProfile', task ':location:prepareLintJarForPublish', task ':location:mergeDebugJavaResource', task ':location:syncDebugLibJars', task ':location:bundleDebugAar', task ':location:assembleDebug', task ':path_provider_android:stripDebugDebugSymbols', task ':path_provider_android:copyDebugJniLibsProjectAndLocalJars', task ':path_provider_android:extractDebugAnnotations', task ':path_provider_android:extractDeepLinksForAarDebug', task ':path_provider_android:mergeDebugGeneratedProguardFiles', task ':path_provider_android:mergeDebugConsumerProguardFiles', task ':path_provider_android:prepareDebugArtProfile', task ':path_provider_android:prepareLintJarForPublish', task ':path_provider_android:mergeDebugJavaResource', task ':path_provider_android:syncDebugLibJars', task ':path_provider_android:bundleDebugAar', task ':path_provider_android:assembleDebug', task ':permission_handler_android:stripDebugDebugSymbols', task ':permission_handler_android:copyDebugJniLibsProjectAndLocalJars', task ':permission_handler_android:extractDebugAnnotations', task ':permission_handler_android:extractDeepLinksForAarDebug', task ':permission_handler_android:mergeDebugGeneratedProguardFiles', task ':permission_handler_android:mergeDebugConsumerProguardFiles', task ':permission_handler_android:prepareDebugArtProfile', task ':permission_handler_android:prepareLintJarForPublish', task ':permission_handler_android:mergeDebugJavaResource', task ':permission_handler_android:syncDebugLibJars', task ':permission_handler_android:bundleDebugAar', task ':permission_handler_android:assembleDebug', task ':url_launcher_android:stripDebugDebugSymbols', task ':url_launcher_android:copyDebugJniLibsProjectAndLocalJars', task ':url_launcher_android:extractDebugAnnotations', task ':url_launcher_android:extractDeepLinksForAarDebug', task ':url_launcher_android:mergeDebugGeneratedProguardFiles', task ':url_launcher_android:mergeDebugConsumerProguardFiles', task ':url_launcher_android:prepareDebugArtProfile', task ':url_launcher_android:prepareLintJarForPublish', task ':url_launcher_android:mergeDebugJavaResource', task ':url_launcher_android:syncDebugLibJars', task ':url_launcher_android:bundleDebugAar', task ':url_launcher_android:assembleDebug', task ':video_player_android:stripDebugDebugSymbols', task ':video_player_android:copyDebugJniLibsProjectAndLocalJars', task ':video_player_android:extractDebugAnnotations', task ':video_player_android:extractDeepLinksForAarDebug', task ':video_player_android:mergeDebugGeneratedProguardFiles', task ':video_player_android:mergeDebugConsumerProguardFiles', task ':video_player_android:prepareDebugArtProfile', task ':video_player_android:prepareLintJarForPublish', task ':video_player_android:mergeDebugJavaResource', task ':video_player_android:syncDebugLibJars', task ':video_player_android:bundleDebugAar', task ':video_player_android:assembleDebug']
+[        ] Tasks that were excluded: []
+[        ] work action Parameters of IdentityTransform (Thread[Execution worker Thread 6,5,main]) started.
+[        ] work action Parameters of DexingNoClasspathTransform (Thread[Execution worker Thread 6,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[Execution worker Thread 6,5,main]) started.
+[        ] work action Parameters of ClassesDirToClassesTransform (Thread[Execution worker Thread 6,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :app:DebugMinSdkCheck (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :app:DebugMinSdkCheck (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:DebugMinSdkCheck
+[        ] Caching disabled for task ':app:DebugMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:DebugMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:preBuild (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :app:preBuild (Thread[Execution worker Thread 14,5,main]) started.
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] Skipping task ':app:preBuild' as it has no actions.
+[        ] Resolve mutations for :app:preDebugBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :app:preDebugBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :app:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':app:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+[        ] Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :app:compileFlutterBuildDebug (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :app:compileFlutterBuildDebug (Thread[Execution worker Thread 9,5,main]) started.
+[+1292 ms] > Task :app:compileFlutterBuildDebug
+[        ] Caching disabled for task ':app:compileFlutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildDebug' is not up-to-date because:
+[        ]   Output property 'outputFiles$1' has been added for task ':app:compileFlutterBuildDebug'
+[        ]   Output property 'outputFiles$10' has been added for task ':app:compileFlutterBuildDebug'
+[        ]   Output property 'outputFiles$2' has been added for task ':app:compileFlutterBuildDebug'
+[        ]   and more...
+[        ] Starting process 'command '/home/strhzy/flutter/bin/flutter''. Working directory: /home/strhzy/sharaga/flutter/practs/pract8 Command: /home/strhzy/flutter/bin/flutter --verbose assemble --no-version-check --depfile /home/strhzy/sharaga/flutter/practs/pract8/build/app/intermediates/flutter/debug/flutter_build.d --output /home/strhzy/sharaga/flutter/practs/pract8/build/app/intermediates/flutter/debug -dTargetFile=/home/strhzy/sharaga/flutter/practs/pract8/lib/main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -dFlavor= -dAndroidArchs=android-arm64 -dMinSdkVersion=24 debug_android_application
+[        ] Successfully started process 'command '/home/strhzy/flutter/bin/flutter''
+[        ] [  +47 ms] executing: uname -m
+[        ] [   +4 ms] Exit code 0 from: uname -m
+[        ] [        ] x86_64
+[        ] [   +9 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [   +8 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +39 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +44 ms] Initializing file store
+[        ] [  +11 ms] Done initializing file store
+[        ] [  +39 ms] Skipping target: dart_build
+[        ] [   +1 ms] Skipping target: gen_dart_plugin_registrant
+[        ] [        ] Skipping target: install_code_assets
+[        ] [        ] Skipping target: gen_localizations
+[        ] [ +399 ms] Skipping target: kernel_snapshot_program
+[        ] [ +293 ms] Skipping target: debug_android_application
+[        ] [        ] Persisting file store
+[        ] [   +9 ms] Done persisting file store
+[        ] [  +17 ms] build succeeded.
+[        ] [  +14 ms] "flutter assemble" took 883ms.
+[        ] [  +54 ms] Running 1 shutdown hook
+[        ] [        ] Shutdown hooks complete
+[        ] [  +24 ms] exiting with code 0
+[        ] Resolve mutations for :app:packJniLibsflutterBuildDebug (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :app:packJniLibsflutterBuildDebug (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :app:packJniLibsflutterBuildDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:packJniLibsflutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':app:packJniLibsflutterBuildDebug' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:preBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :audio_session:preBuild (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :audio_session:preBuild UP-TO-DATE
+[        ] Skipping task ':audio_session:preBuild' as it has no actions.
+[        ] Resolve mutations for :audio_session:preDebugBuild (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :audio_session:preDebugBuild (Thread[Execution worker,5,main]) started.
+[        ] > Task :audio_session:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':audio_session:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :audio_session:writeDebugAarMetadata (Thread[Execution worker,5,main]) started.
+[        ] :audio_session:writeDebugAarMetadata (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :audio_session:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':audio_session:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :audio_session) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :device_info_plus:preBuild (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :device_info_plus:preBuild (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :device_info_plus:preBuild UP-TO-DATE
+[        ] Skipping task ':device_info_plus:preBuild' as it has no actions.
+[        ] Resolve mutations for :device_info_plus:preDebugBuild (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :device_info_plus:preDebugBuild (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :device_info_plus:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':device_info_plus:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :device_info_plus:writeDebugAarMetadata (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :device_info_plus:writeDebugAarMetadata (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :device_info_plus:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':device_info_plus:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :device_info_plus) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :file_picker:preBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :file_picker:preBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :file_picker:preBuild UP-TO-DATE
+[        ] Skipping task ':file_picker:preBuild' as it has no actions.
+[        ] Resolve mutations for :file_picker:preDebugBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :file_picker:preDebugBuild (Thread[Execution worker Thread 7,5,main]) started.
+[        ] > Task :file_picker:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':file_picker:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :file_picker:writeDebugAarMetadata (Thread[Execution worker Thread 7,5,main]) started.
+[        ] :file_picker:writeDebugAarMetadata (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :file_picker:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':file_picker:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :file_picker) (Thread[Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:preBuild (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:preBuild (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:preBuild' as it has no actions.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:preDebugBuild (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:preDebugBuild (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :flutter_plugin_android_lifecycle) (Thread[Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:preBuild (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :image_picker_android:preBuild (Thread[included builds,5,main]) started.
+[        ] > Task :image_picker_android:preBuild UP-TO-DATE
+[        ] Skipping task ':image_picker_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :image_picker_android:preDebugBuild (Thread[included builds,5,main]) started.
+[        ] :image_picker_android:preDebugBuild (Thread[included builds,5,main]) started.
+[        ] > Task :image_picker_android:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':image_picker_android:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :image_picker_android:writeDebugAarMetadata (Thread[included builds,5,main]) started.
+[        ] :image_picker_android:writeDebugAarMetadata (Thread[included builds,5,main]) started.
+[        ] > Task :image_picker_android:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':image_picker_android:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :image_picker_android) (Thread[included builds,5,main]) started.
+[        ] Resolve mutations for :just_audio:preBuild (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :just_audio:preBuild (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :just_audio:preBuild UP-TO-DATE
+[        ] Skipping task ':just_audio:preBuild' as it has no actions.
+[        ] Resolve mutations for :just_audio:preDebugBuild (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :just_audio:preDebugBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :just_audio:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':just_audio:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :just_audio:writeDebugAarMetadata (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :just_audio:writeDebugAarMetadata (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :just_audio:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':just_audio:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :just_audio) (Thread[Execution worker Thread 15,5,main]) started.
+[        ] Resolve mutations for :location:preBuild (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :location:preBuild (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :location:preBuild UP-TO-DATE
+[        ] Skipping task ':location:preBuild' as it has no actions.
+[        ] Resolve mutations for :location:preDebugBuild (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :location:preDebugBuild (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :location:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':location:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :location:writeDebugAarMetadata (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :location:writeDebugAarMetadata (Thread[included builds,5,main]) started.
+[        ] > Task :location:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':location:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':location:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :location) (Thread[included builds,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:preBuild (Thread[included builds,5,main]) started.
+[        ] :path_provider_android:preBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :path_provider_android:preBuild UP-TO-DATE
+[        ] Skipping task ':path_provider_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :path_provider_android:preDebugBuild (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :path_provider_android:preDebugBuild (Thread[Execution worker Thread 10,5,main]) started.
+[        ] > Task :path_provider_android:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':path_provider_android:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :path_provider_android:writeDebugAarMetadata (Thread[Execution worker Thread 10,5,main]) started.
+[        ] :path_provider_android:writeDebugAarMetadata (Thread[Execution worker Thread 10,5,main]) started.
+[        ] > Task :path_provider_android:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':path_provider_android:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :path_provider_android) (Thread[Execution worker Thread 10,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:preBuild (Thread[Execution worker Thread 10,5,main]) started.
+[        ] :permission_handler_android:preBuild (Thread[Execution worker Thread 7,5,main]) started.
+[        ] > Task :permission_handler_android:preBuild UP-TO-DATE
+[        ] Skipping task ':permission_handler_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :permission_handler_android:preDebugBuild (Thread[Execution worker Thread 7,5,main]) started.
+[  +81 ms] :permission_handler_android:preDebugBuild (Thread[Execution worker Thread 14,5,main]) started.
+[        ] > Task :permission_handler_android:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':permission_handler_android:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :permission_handler_android:writeDebugAarMetadata (Thread[Execution worker Thread 14,5,main]) started.
+[        ] :permission_handler_android:writeDebugAarMetadata (Thread[Execution worker Thread 14,5,main]) started.
+[        ] > Task :permission_handler_android:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':permission_handler_android:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :permission_handler_android) (Thread[Execution worker Thread 14,5,main]) started.
+[        ] Resolve mutations for :url_launcher_android:preBuild (Thread[Execution worker Thread 14,5,main]) started.
+[        ] :url_launcher_android:preBuild (Thread[Execution worker Thread 14,5,main]) started.
+[        ] > Task :url_launcher_android:preBuild UP-TO-DATE
+[        ] Skipping task ':url_launcher_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :url_launcher_android:preDebugBuild (Thread[Execution worker Thread 14,5,main]) started.
+[        ] :url_launcher_android:preDebugBuild (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :url_launcher_android:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':url_launcher_android:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :url_launcher_android:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :url_launcher_android:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :url_launcher_android:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':url_launcher_android:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :url_launcher_android) (Thread[Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :video_player_android:preBuild (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :video_player_android:preBuild (Thread[Execution worker Thread 7,5,main]) started.
+[        ] > Task :video_player_android:preBuild UP-TO-DATE
+[        ] Skipping task ':video_player_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :video_player_android:preDebugBuild (Thread[Execution worker Thread 7,5,main]) started.
+[        ] :video_player_android:preDebugBuild (Thread[Execution worker Thread 7,5,main]) started.
+[        ] > Task :video_player_android:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':video_player_android:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :video_player_android:writeDebugAarMetadata (Thread[Execution worker Thread 7,5,main]) started.
+[        ] :video_player_android:writeDebugAarMetadata (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :video_player_android:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':video_player_android:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :video_player_android) (Thread[Execution worker Thread 9,5,main]) started.
+[        ] Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :app:checkDebugAarMetadata (Thread[Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:checkDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:checkDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:cleanMergeDebugAssets (Thread[Execution worker Thread 7,5,main]) started.
+[        ] :app:cleanMergeDebugAssets (Thread[included builds,5,main]) started.
+[        ] > Task :app:cleanMergeDebugAssets
+[        ] Caching disabled for task ':app:cleanMergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:cleanMergeDebugAssets' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:mergeDebugShaders (Thread[included builds,5,main]) started.
+[        ] :app:mergeDebugShaders (Thread[included builds,5,main]) started.
+[        ] > Task :app:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :app:compileDebugShaders (Thread[included builds,5,main]) started.
+[        ] :app:compileDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :app:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:generateDebugAssets (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :app:generateDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :app:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':app:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :audio_session:mergeDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :audio_session:mergeDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :audio_session:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':audio_session:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:compileDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :audio_session:compileDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :audio_session:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':audio_session:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :audio_session:generateDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :audio_session:generateDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :audio_session:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':audio_session:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :audio_session:mergeDebugAssets (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :audio_session:mergeDebugAssets (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :audio_session:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':audio_session:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :audio_session) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :device_info_plus:mergeDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :device_info_plus:mergeDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :device_info_plus:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':device_info_plus:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :device_info_plus:compileDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :device_info_plus:compileDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :device_info_plus:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':device_info_plus:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :device_info_plus:generateDebugAssets (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :device_info_plus:generateDebugAssets (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :device_info_plus:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':device_info_plus:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :device_info_plus:mergeDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :device_info_plus:mergeDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :device_info_plus:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':device_info_plus:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :device_info_plus) (Thread[Execution worker Thread 15,5,main]) started.
+[        ] Resolve mutations for :file_picker:mergeDebugShaders (Thread[Execution worker Thread 7,5,main]) started.
+[        ] :file_picker:mergeDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :file_picker:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':file_picker:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :file_picker:compileDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :file_picker:compileDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :file_picker:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':file_picker:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :file_picker:generateDebugAssets (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :file_picker:generateDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+[        ] > Task :file_picker:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':file_picker:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :file_picker:mergeDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+[        ] :file_picker:mergeDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+[        ] > Task :file_picker:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':file_picker:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :file_picker) (Thread[Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:mergeDebugShaders (Thread[Execution worker Thread 2,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:mergeDebugShaders (Thread[Execution worker Thread 2,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:compileDebugShaders (Thread[Execution worker Thread 2,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:compileDebugShaders (Thread[Execution worker Thread 2,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:generateDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:generateDebugAssets (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:mergeDebugAssets (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:mergeDebugAssets (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :flutter_plugin_android_lifecycle) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:mergeDebugShaders (Thread[Execution worker Thread 7,5,main]) started.
+[        ] :image_picker_android:mergeDebugShaders (Thread[Execution worker Thread 7,5,main]) started.
+[        ] > Task :image_picker_android:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':image_picker_android:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :image_picker_android:compileDebugShaders (Thread[Execution worker Thread 7,5,main]) started.
+[        ] :image_picker_android:compileDebugShaders (Thread[Execution worker Thread 7,5,main]) started.
+[        ] > Task :image_picker_android:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':image_picker_android:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :image_picker_android:generateDebugAssets (Thread[Execution worker Thread 7,5,main]) started.
+[        ] :image_picker_android:generateDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :image_picker_android:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':image_picker_android:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :image_picker_android:mergeDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :image_picker_android:mergeDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :image_picker_android:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':image_picker_android:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :image_picker_android) (Thread[Execution worker Thread 15,5,main]) started.
+[        ] Resolve mutations for :just_audio:mergeDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :just_audio:mergeDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :just_audio:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':just_audio:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :just_audio:compileDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :just_audio:compileDebugShaders (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :just_audio:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':just_audio:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :just_audio:generateDebugAssets (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :just_audio:generateDebugAssets (Thread[Execution worker Thread 10,5,main]) started.
+[        ] > Task :just_audio:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':just_audio:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :just_audio:mergeDebugAssets (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :just_audio:mergeDebugAssets (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :just_audio:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':just_audio:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :just_audio) (Thread[Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :location:mergeDebugShaders (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :location:mergeDebugShaders (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :location:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':location:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':location:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :location:compileDebugShaders (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :location:compileDebugShaders (Thread[Execution worker Thread 5,5,main]) started.
+[  +81 ms] > Task :location:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':location:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :location:generateDebugAssets (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :location:generateDebugAssets (Thread[Execution worker Thread 8,5,main]) started.
+[        ] > Task :location:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':location:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :location:mergeDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+[        ] :location:mergeDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+[        ] > Task :location:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':location:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':location:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :location) (Thread[Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:mergeDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :path_provider_android:mergeDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :path_provider_android:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':path_provider_android:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:compileDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :path_provider_android:compileDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :path_provider_android:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':path_provider_android:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :path_provider_android:generateDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :path_provider_android:generateDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :path_provider_android:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':path_provider_android:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :path_provider_android:mergeDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :path_provider_android:mergeDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :path_provider_android:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':path_provider_android:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :path_provider_android) (Thread[Execution worker Thread 15,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:mergeDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :permission_handler_android:mergeDebugShaders (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :permission_handler_android:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':permission_handler_android:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :permission_handler_android:compileDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :permission_handler_android:compileDebugShaders (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :permission_handler_android:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':permission_handler_android:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :permission_handler_android:generateDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :permission_handler_android:generateDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :permission_handler_android:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':permission_handler_android:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :permission_handler_android:mergeDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :permission_handler_android:mergeDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :permission_handler_android:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':permission_handler_android:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :permission_handler_android) (Thread[Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :url_launcher_android:mergeDebugShaders (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :url_launcher_android:mergeDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :url_launcher_android:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':url_launcher_android:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :url_launcher_android:compileDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :url_launcher_android:compileDebugShaders (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :url_launcher_android:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':url_launcher_android:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :url_launcher_android:generateDebugAssets (Thread[Execution worker Thread 9,5,main]) started.
+[        ] :url_launcher_android:generateDebugAssets (Thread[Execution worker Thread 9,5,main]) started.
+[        ] > Task :url_launcher_android:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':url_launcher_android:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :url_launcher_android:mergeDebugAssets (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :url_launcher_android:mergeDebugAssets (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :url_launcher_android:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':url_launcher_android:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :url_launcher_android) (Thread[Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :video_player_android:mergeDebugShaders (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :video_player_android:mergeDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :video_player_android:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':video_player_android:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :video_player_android:compileDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :video_player_android:compileDebugShaders (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :video_player_android:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':video_player_android:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :video_player_android:generateDebugAssets (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :video_player_android:generateDebugAssets (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :video_player_android:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':video_player_android:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :video_player_android:mergeDebugAssets (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :video_player_android:mergeDebugAssets (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :video_player_android:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':video_player_android:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :video_player_android) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugAssets (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :app:mergeDebugAssets (Thread[Execution worker Thread 11,5,main]) started.
+[  +89 ms] > Task :app:mergeDebugAssets
+[        ] Caching disabled for task ':app:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Task ':app:mergeDebugAssets' is not up-to-date because:
+[        ]   Output property 'outputDir' file /home/strhzy/sharaga/flutter/practs/pract8/build/app/intermediates/assets/debug/mergeDebugAssets has been removed.
+[        ] The input changes require a full rebuild for incremental task ':app:mergeDebugAssets'.
+[        ] Resolve mutations for :app:copyFlutterAssetsDebug (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :app:copyFlutterAssetsDebug (Thread[Execution worker Thread 11,5,main]) started.
+[ +198 ms] > Task :app:copyFlutterAssetsDebug
+[        ] Caching disabled for task ':app:copyFlutterAssetsDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Task ':app:copyFlutterAssetsDebug' is not up-to-date because:
+[        ]   Output property 'destinationDir' file /home/strhzy/sharaga/flutter/practs/pract8/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets has been removed.
+[   +1 ms]   Output property 'destinationDir' file /home/strhzy/sharaga/flutter/practs/pract8/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.bin has been removed.
+[        ]   Output property 'destinationDir' file /home/strhzy/sharaga/flutter/practs/pract8/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/FontManifest.json has been removed.
+[        ]   and more...
+[        ] Resolve mutations for :app:generateDebugResValues (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :app:generateDebugResValues (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:generateDebugResValues (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :audio_session:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :audio_session:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :audio_session:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :audio_session:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :audio_session:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :audio_session:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :audio_session) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :device_info_plus:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :device_info_plus:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :device_info_plus:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :device_info_plus:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :device_info_plus:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :device_info_plus:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :device_info_plus:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :device_info_plus:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :device_info_plus:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :device_info_plus) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :file_picker:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :file_picker:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :file_picker:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :file_picker:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :file_picker:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :file_picker:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :file_picker:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :file_picker:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :file_picker:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :file_picker) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :flutter_plugin_android_lifecycle) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :image_picker_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :image_picker_android:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :image_picker_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :image_picker_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :image_picker_android:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :image_picker_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :image_picker_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :image_picker_android:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:packageDebugResources' because:
+[   +2 ms]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :image_picker_android) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :just_audio:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :just_audio:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :just_audio:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':just_audio:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :just_audio:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :just_audio:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :just_audio:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':just_audio:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :just_audio:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :just_audio:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :just_audio:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':just_audio:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :just_audio) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :location:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :location:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :location:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':location:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':location:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :location:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :location:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :location:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':location:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':location:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :location:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :location:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :location:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':location:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':location:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :location) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :path_provider_android) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :permission_handler_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :permission_handler_android:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':permission_handler_android:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :permission_handler_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :permission_handler_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :permission_handler_android:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':permission_handler_android:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :permission_handler_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :permission_handler_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :permission_handler_android:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':permission_handler_android:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :permission_handler_android) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :url_launcher_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :url_launcher_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :url_launcher_android:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':url_launcher_android:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :url_launcher_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :url_launcher_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :url_launcher_android:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':url_launcher_android:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :url_launcher_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :url_launcher_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :url_launcher_android:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':url_launcher_android:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :url_launcher_android) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :video_player_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :video_player_android:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :video_player_android:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':video_player_android:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :video_player_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :video_player_android:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :video_player_android:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':video_player_android:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :video_player_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :video_player_android:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :video_player_android:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':video_player_android:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :video_player_android) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :app:mapDebugSourceSetPaths (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:mapDebugSourceSetPaths (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+[        ] Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+[        ] Resolve mutations for :app:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResources' as it is up-to-date.
+[  +72 ms] Resolve mutations for :app:mergeDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:mergeDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:mergeDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:packageDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:packageDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:parseDebugLocalResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:parseDebugLocalResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':app:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+[        ] Resolve mutations for :app:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :audio_session:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :audio_session:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :audio_session) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :audio_session:processDebugManifest (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :audio_session:processDebugManifest (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :audio_session:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :audio_session) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :device_info_plus:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :device_info_plus:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :device_info_plus:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :device_info_plus) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :device_info_plus:processDebugManifest (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :device_info_plus:processDebugManifest (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :device_info_plus:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :device_info_plus) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :file_picker:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :file_picker:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :file_picker:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :file_picker) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :file_picker:processDebugManifest (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :file_picker:processDebugManifest (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :file_picker:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :file_picker) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:extractDeepLinksDebug (Thread[Execution worker,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :flutter_plugin_android_lifecycle) (Thread[Execution worker,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:processDebugManifest (Thread[Execution worker,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:processDebugManifest (Thread[Execution worker,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :flutter_plugin_android_lifecycle) (Thread[Execution worker,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:extractDeepLinksDebug (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :image_picker_android:extractDeepLinksDebug (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :image_picker_android:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :image_picker_android) (Thread[Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:processDebugManifest (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :image_picker_android:processDebugManifest (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :image_picker_android:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :image_picker_android) (Thread[Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :just_audio:extractDeepLinksDebug (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :just_audio:extractDeepLinksDebug (Thread[Execution worker Thread 5,5,main]) started.
+[        ] > Task :just_audio:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':just_audio:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :just_audio) (Thread[Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :just_audio:processDebugManifest (Thread[Execution worker Thread 5,5,main]) started.
+[        ] :just_audio:processDebugManifest (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :just_audio:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':just_audio:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :just_audio) (Thread[Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :location:extractDeepLinksDebug (Thread[included builds,5,main]) started.
+[        ] :location:extractDeepLinksDebug (Thread[included builds,5,main]) started.
+[        ] > Task :location:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':location:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':location:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :location) (Thread[included builds,5,main]) started.
+[        ] Resolve mutations for :location:processDebugManifest (Thread[included builds,5,main]) started.
+[        ] :location:processDebugManifest (Thread[included builds,5,main]) started.
+[        ] > Task :location:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':location:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':location:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :location) (Thread[included builds,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:extractDeepLinksDebug (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :path_provider_android:extractDeepLinksDebug (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :path_provider_android:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :path_provider_android) (Thread[Execution worker Thread 15,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:processDebugManifest (Thread[Execution worker Thread 15,5,main]) started.
+[        ] :path_provider_android:processDebugManifest (Thread[Execution worker Thread 15,5,main]) started.
+[        ] > Task :path_provider_android:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :path_provider_android) (Thread[Execution worker Thread 15,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:extractDeepLinksDebug (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :permission_handler_android:extractDeepLinksDebug (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :permission_handler_android:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':permission_handler_android:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :permission_handler_android) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:processDebugManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :permission_handler_android:processDebugManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :permission_handler_android:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':permission_handler_android:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :permission_handler_android) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :url_launcher_android:extractDeepLinksDebug (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :url_launcher_android:extractDeepLinksDebug (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :url_launcher_android:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':url_launcher_android:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :url_launcher_android) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :url_launcher_android:processDebugManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :url_launcher_android:processDebugManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :url_launcher_android:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':url_launcher_android:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :url_launcher_android) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :video_player_android:extractDeepLinksDebug (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :video_player_android:extractDeepLinksDebug (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :video_player_android:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':video_player_android:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :video_player_android) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :video_player_android:processDebugManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :video_player_android:processDebugManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :video_player_android:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':video_player_android:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :video_player_android) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :app:processDebugMainManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :app:processDebugMainManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:processDebugMainManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugMainManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:outputDebugAppLinkSettings (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :app:outputDebugAppLinkSettings (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:outputDebugAppLinkSettings UP-TO-DATE
+[        ] Caching disabled for task ':app:outputDebugAppLinkSettings' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Skipping task ':app:outputDebugAppLinkSettings' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :app:processDebugManifest (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifestForPackage (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :app:processDebugManifestForPackage (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:processDebugManifestForPackage UP-TO-DATE
+[        ] Custom actions are attached to task ':app:processDebugManifestForPackage'.
+[        ] Caching disabled for task ':app:processDebugManifestForPackage' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:compileDebugLibraryResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :audio_session:compileDebugLibraryResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :audio_session:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :audio_session) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :audio_session:parseDebugLocalResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :audio_session:parseDebugLocalResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :audio_session:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:generateDebugRFile (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :audio_session:generateDebugRFile (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :audio_session:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :audio_session) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :device_info_plus:compileDebugLibraryResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :device_info_plus:compileDebugLibraryResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :device_info_plus:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :device_info_plus) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :device_info_plus:parseDebugLocalResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :device_info_plus:parseDebugLocalResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :device_info_plus:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :device_info_plus:generateDebugRFile (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :device_info_plus:generateDebugRFile (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :device_info_plus:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :device_info_plus) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :file_picker:compileDebugLibraryResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :file_picker:compileDebugLibraryResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] > Task :file_picker:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :file_picker) (Thread[Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :file_picker:parseDebugLocalResources (Thread[Execution worker Thread 11,5,main]) started.
+[        ] :file_picker:parseDebugLocalResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :file_picker:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :file_picker:generateDebugRFile (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :file_picker:generateDebugRFile (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :file_picker:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :file_picker) (Thread[Execution worker Thread 13,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:compileDebugLibraryResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:compileDebugLibraryResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :flutter_plugin_android_lifecycle) (Thread[Execution worker Thread 13,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:parseDebugLocalResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:parseDebugLocalResources (Thread[Execution worker Thread 13,5,main]) started.
+[  +75 ms] > Task :flutter_plugin_android_lifecycle:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:generateDebugRFile (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:generateDebugRFile (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :flutter_plugin_android_lifecycle) (Thread[Execution worker Thread 13,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:compileDebugLibraryResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :image_picker_android:compileDebugLibraryResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :image_picker_android:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :image_picker_android) (Thread[Execution worker Thread 13,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:parseDebugLocalResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :image_picker_android:parseDebugLocalResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :image_picker_android:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :image_picker_android:generateDebugRFile (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :image_picker_android:generateDebugRFile (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :image_picker_android:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :image_picker_android) (Thread[Execution worker Thread 13,5,main]) started.
+[        ] Resolve mutations for :just_audio:compileDebugLibraryResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :just_audio:compileDebugLibraryResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :just_audio:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':just_audio:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :just_audio) (Thread[Execution worker Thread 13,5,main]) started.
+[        ] Resolve mutations for :just_audio:parseDebugLocalResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :just_audio:parseDebugLocalResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :just_audio:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':just_audio:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :just_audio:generateDebugRFile (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :just_audio:generateDebugRFile (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :just_audio:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':just_audio:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':just_audio:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :just_audio) (Thread[Execution worker Thread 13,5,main]) started.
+[        ] Resolve mutations for :location:compileDebugLibraryResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] :location:compileDebugLibraryResources (Thread[Execution worker Thread 13,5,main]) started.
+[        ] > Task :location:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':location:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':location:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :location) (Thread[Execution worker Thread 13,5,main]) started.
+[        ] Resolve mutations for :location:parseDebugLocalResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :location:parseDebugLocalResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :location:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':location:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':location:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :location:generateDebugRFile (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :location:generateDebugRFile (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :location:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':location:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':location:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :location) (Thread[Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:compileDebugLibraryResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :path_provider_android:compileDebugLibraryResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :path_provider_android:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :path_provider_android) (Thread[Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:parseDebugLocalResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :path_provider_android:parseDebugLocalResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :path_provider_android:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:generateDebugRFile (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :path_provider_android:generateDebugRFile (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :path_provider_android:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :path_provider_android) (Thread[Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:compileDebugLibraryResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :permission_handler_android:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :permission_handler_android:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':permission_handler_android:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :permission_handler_android) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :permission_handler_android:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :permission_handler_android:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':permission_handler_android:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :permission_handler_android:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :permission_handler_android:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :permission_handler_android:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':permission_handler_android:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :permission_handler_android) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :url_launcher_android:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :url_launcher_android:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :url_launcher_android:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':url_launcher_android:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :url_launcher_android) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :url_launcher_android:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :url_launcher_android:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :url_launcher_android:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':url_launcher_android:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :url_launcher_android:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :url_launcher_android:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :url_launcher_android:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':url_launcher_android:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':url_launcher_android:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :url_launcher_android) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :video_player_android:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :video_player_android:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :video_player_android:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':video_player_android:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :video_player_android) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :video_player_android:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :video_player_android:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :video_player_android:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':video_player_android:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :video_player_android:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :video_player_android:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :video_player_android:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':video_player_android:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':video_player_android:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :video_player_android) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :app:processDebugResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :app:processDebugResources (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :app:processDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:javaPreCompileDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :audio_session:javaPreCompileDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :audio_session:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :audio_session:compileDebugJavaWithJavac (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :audio_session:compileDebugJavaWithJavac (Thread[Execution worker Thread 12,5,main]) started.
+[  +83 ms] > Task :audio_session:compileDebugJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':audio_session:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':audio_session:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':audio_session:compileDebugJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :audio_session:compileDebugJavaWithJavac
+[        ] No compile result for :audio_session:compileDebugJavaWithJavac
+[        ] Resolve mutations for :audio_session:bundleLibCompileToJarDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :audio_session:bundleLibCompileToJarDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :audio_session:bundleLibCompileToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':audio_session:bundleLibCompileToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':audio_session:bundleLibCompileToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :audio_session) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :device_info_plus:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :device_info_plus:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :device_info_plus:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':device_info_plus:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :device_info_plus:compileDebugKotlin (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :device_info_plus:compileDebugKotlin (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :device_info_plus:compileDebugKotlin UP-TO-DATE
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :device_info_plus:compileDebugAndroidTestKotlin
+[        ] Caching disabled for task ':device_info_plus:compileDebugKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:compileDebugKotlin' as it is up-to-date.
+[        ] Resolve mutations for :device_info_plus:javaPreCompileDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :device_info_plus:javaPreCompileDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :device_info_plus:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':device_info_plus:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :device_info_plus:compileDebugJavaWithJavac (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :device_info_plus:compileDebugJavaWithJavac (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :device_info_plus:compileDebugJavaWithJavac NO-SOURCE
+[        ] Skipping task ':device_info_plus:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+[        ] Resolve mutations for :device_info_plus:bundleLibCompileToJarDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :device_info_plus:bundleLibCompileToJarDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :device_info_plus:bundleLibCompileToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':device_info_plus:bundleLibCompileToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':device_info_plus:bundleLibCompileToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :device_info_plus) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :file_picker:javaPreCompileDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :file_picker:javaPreCompileDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :file_picker:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':file_picker:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:javaPreCompileDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:javaPreCompileDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:compileDebugJavaWithJavac (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:compileDebugJavaWithJavac (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:compileDebugJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':flutter_plugin_android_lifecycle:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:compileDebugJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :flutter_plugin_android_lifecycle:compileDebugJavaWithJavac
+[        ] No compile result for :flutter_plugin_android_lifecycle:compileDebugJavaWithJavac
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug (Thread[Execution worker Thread 12,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :flutter_plugin_android_lifecycle) (Thread[Execution worker Thread 12,5,main]) started.
+[        ] Resolve mutations for :file_picker:compileDebugJavaWithJavac (Thread[Execution worker Thread 12,5,main]) started.
+[        ] :file_picker:compileDebugJavaWithJavac (Thread[Execution worker Thread 12,5,main]) started.
+[ +194 ms] > Task :file_picker:compileDebugJavaWithJavac FAILED
+[        ] Custom actions are attached to task ':file_picker:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':file_picker:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Task ':file_picker:compileDebugJavaWithJavac' is not up-to-date because:
+[        ]   Task has failed previously.
+[        ] The input changes require a full rebuild for incremental task ':file_picker:compileDebugJavaWithJavac'.
+[        ] Compilation mode: in-process compilation
+[        ] Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+[        ] Compiling with toolchain '/usr/lib/jvm/java-17-openjdk'.
+[        ] file or directory '/home/strhzy/.pub-cache/hosted/pub.dev/file_picker-5.5.0/android/src/debug/java', not found
+[        ] Compiling with JDK Java compiler API.
+[        ] Build 4bb112f6-4d0a-4bac-8500-32f28eabec08 is closed
+[        ] Build aabe38bd-a871-4a8d-9b8e-4deb45152a1f is closed
+[        ] [Incubating] Problems report is available at: file:///home/strhzy/sharaga/flutter/practs/pract8/build/reports/problems/problems-report.html
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] 157 actionable tasks: 6 executed, 151 up-to-date
+[  +28 ms] Running Gradle task 'assembleDebug'... (completed in 8,7s)
+[  +20 ms] 
+           ┌─ Flutter Fix ───────────────────────────────────────────────────────────────────────────────────┐
+           │ [!] Consult the error logs above to identify any broken plugins, specifically those containing  │
+           │ "error: cannot find symbol..."                                                                  │
+           │ This issue is likely caused by v1 embedding removal and the plugin's continued usage of removed │
+           │ references to the v1 embedding.                                                                 │
+           │ To fix this error, please upgrade your current package's dependencies to latest versions by     │
+           │ running `flutter pub upgrade`.                                                                  │
+           │ If that does not work, please file an issue for the problematic plugin(s) here:                 │
+           │ https://github.com/flutter/flutter/issues                                                       │
+           └─────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+[        ] "flutter run" took 11 033ms.
+[        ] Running 3 shutdown hooks
+[   +6 ms] Shutdown hooks complete
+[  +20 ms] exiting with code 1

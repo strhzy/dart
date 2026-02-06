@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'models/movie.dart';
 
 void main() async {
@@ -7,18 +8,141 @@ void main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(MovieAdapter());
   final moviesBox = await Hive.openBox<Movie>('movies');
-  runApp(MainApp(moviesBox: await moviesBox));
+  final prefs = await SharedPreferences.getInstance();
+  final isDark = prefs.getBool('app_theme') ?? false;
+
+  runApp(MainApp(moviesBox: moviesBox, isDarkMode: isDark));
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key, required this.moviesBox});
+class ThemeService {
+  static const String _themeKey = 'app_theme';
+
+  static Future<void> saveTheme(bool isDark) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_themeKey, isDark);
+  }
+
+  static Future<bool> loadTheme() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getBool(_themeKey) ?? false;
+  }
+}
+
+class MainApp extends StatefulWidget {
+  const MainApp({super.key, required this.moviesBox, required this.isDarkMode});
   final Box<Movie> moviesBox;
+  final bool isDarkMode;
+
+  @override
+  State<MainApp> createState() => _MainAppState();
+}
+
+class _MainAppState extends State<MainApp> {
+  late bool _isDarkMode;
+
+  @override
+  void initState() {
+    super.initState();
+    _isDarkMode = widget.isDarkMode;
+  }
+
+  void toggleTheme(bool value) {
+    setState(() {
+      _isDarkMode = value;
+    });
+    SharedPreferences.getInstance().then((prefs) {
+      prefs.setBool('app_theme', value);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Мои киношки",
-      home: MovieScreen(moviesBox: moviesBox),
+      theme: ThemeData.light(useMaterial3: true),
+      darkTheme: ThemeData.dark(useMaterial3: true),
+      themeMode: _isDarkMode ? ThemeMode.dark : ThemeMode.light,
+      home: MainScreen(
+        moviesBox: widget.moviesBox,
+        onThemeToggle: toggleTheme,
+        isDarkMode: _isDarkMode,
+      ),
+    );
+  }
+}
+
+class MainScreen extends StatefulWidget {
+  final Box<Movie> moviesBox;
+  final void Function(bool) onThemeToggle;
+  final bool isDarkMode;
+
+  const MainScreen({
+    super.key,
+    required this.moviesBox,
+    required this.onThemeToggle,
+    required this.isDarkMode,
+  });
+
+  @override
+  _MainScreenState createState() => _MainScreenState();
+}
+
+class _MainScreenState extends State<MainScreen> {
+  int _currentIndex = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    final List<Widget> _screens = [
+      MovieScreen(moviesBox: widget.moviesBox),
+      SettingsScreen(
+        onThemeToggle: widget.onThemeToggle,
+        isDarkMode: widget.isDarkMode,
+      ),
+    ];
+    final List<String> _titles = ["Киношки", "Настройки"];
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(_titles[_currentIndex]),
+        actions: [
+          IconButton(
+            onPressed: () => setState(() => _currentIndex = 0),
+            icon: Icon(Icons.home),
+          ),
+          IconButton(
+            onPressed: () => setState(() => _currentIndex = 1),
+            icon: Icon(Icons.settings),
+          ),
+        ],
+      ),
+      body: _screens[_currentIndex],
+    );
+  }
+}
+
+class SettingsScreen extends StatelessWidget {
+  final void Function(bool) onThemeToggle;
+  final bool isDarkMode;
+
+  const SettingsScreen({
+    super.key,
+    required this.onThemeToggle,
+    required this.isDarkMode,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Настройки')),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Тема приложения'),
+            Switch(value: isDarkMode, onChanged: onThemeToggle),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -106,7 +230,6 @@ class _MovieScreenState extends State<MovieScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Киношки")),
       body: Column(
         children: [
           Padding(
